@@ -25,4 +25,4 @@ class LinkedList:
             current = dereference_pointer(self.start).get(current)
         return current
 
-
+# Edge case not handled: if get is pass the index
